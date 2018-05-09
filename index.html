@@ -1,0 +1,119 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>State Level Infographic</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./css/state-info.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="#">State-Level Infographic</a>
+
+        <div>
+            <select name="stateList" id="sl" class="form-control"></select>
+        </div>
+        <div>
+            <button class="btn btn-outline-success my-2" id="search">Update</button>
+        </div>
+    </nav>
+    <div class="background">
+        <div class="head">
+            <div class="head-filter"></div>
+            <div class="head-content">Washington</div>
+        </div>
+        <div class="summary">
+            <div class="summary-block">
+                <div class="icon">
+                    <div class="image blocks"></div>
+                </div>
+                <div class="icon1">
+                    <div class="title">#Counties/#Blocks</div>
+                    <div class="number cbnum"></div>
+                </div>
+            </div>
+            <div class="summary-block">
+                <div class="icon">
+                    <div class="image edu"></div>
+                </div>
+                <div class="icon1">
+                    <div class="title">Education
+                        <span><p>Bachelors,25+</p></span>
+                    </div>
+                    <div class="number edunum"></div>
+                </div>
+            </div>
+            <div class="summary-block">
+                <div class="icon">
+                    <div class="image income"></div>
+                </div>
+                <div class="icon1">
+                    <div class="title">Median Income</div>
+                    <div class="number incomenum"></div>
+                </div>
+            </div>
+            <div class="summary-block">
+                <div class="icon">
+                    <div class="image poverty"></div>
+                </div>
+                <div class="icon1">
+                    <div class="title">Poverty Rate</div>
+                    <div class="number povertynum"></div>
+                </div>
+            </div>
+            <div class="summary-block">
+                <div class="icon">
+                    <div class="image population"></div>
+                </div>
+                <div class="icon1">
+                    <div class="title">Population</div>
+                    <div class="number popnum"></div>
+                </div>
+            </div>
+            <div class="summary-block">
+                <div class="icon">
+                    <div class="image pd"></div>
+                </div>
+                <div class="icon1">
+                    <div class="title">Population Density</div>
+                    <div class="number pdnum"></div>
+                </div>
+            </div>
+        </div>
+        <div class="headbar" id="toolbar">
+            <h5>  Number of Providers by Service Type</h5>
+        </div>
+        <div class="bubbles">
+        </div>
+        <div class="connectivity" id="twentyfiveAccess"></div>
+        <div class="connectivity" id="hundredAccess"></div>
+        <div class="connectivity" id="twentyfiveWealth"></div>
+        <div class="connectivity" id="hundredWealth"></div>
+        <div class="subscriptionlevel" id="count_200kbps"></div>
+        <div class="subscriptionlevel" id="count_1mbps"></div>
+        <div class="foot">
+            <div class="foot-filter">
+            </div>
+            <div class="foot-content">UW MSIM Capstone</div>
+        </div>
+    </div>
+</body>
+<script src="./js/state-info.js"></script>
+<script src="./js/bubble1.js"></script>
+<script src="./js/barConnectivity.js"></script>
+<script src="./js/bar.js"></script>
+
+</html>

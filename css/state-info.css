@@ -1,0 +1,271 @@
+* {
+    box-sizing: border-box;
+}
+
+.background {
+    width: 850px;
+    height: 1100px;
+    background-color: #ccc;
+    margin: auto;
+}
+
+button {
+    margin-left: 10px;
+}
+
+.navbar {
+    justify-content: inherit;
+}
+
+#sl {
+    margin-right: 15px;
+}
+
+.head-filter {
+    width: 850px;
+    height: 100px;
+    background-color: black;
+    position: absolute;
+    z-index: 0;
+    opacity: 0.7;
+}
+
+.head-content {
+    width: 850px;
+    height: 100px;
+    color: white;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    float: left;
+    font-size: 44px;
+    text-align: left;
+    padding: 15px;
+}
+
+.head {
+    width: 850px;
+    height: 100px;
+    background-image: url('../img/header.jpg');
+    background-size: cover;
+    background-position: center;
+    float: left;
+}
+
+.summary {
+    width: 425px;
+    height: 360px;
+    float: left;
+    background-color: grey; 
+}
+
+.summary-block {
+    width: 212.5px;
+    height: 120px;
+    /* background-color: white; */
+    float: left;
+}
+
+.icon {
+    width: 56%;
+    height: 120px;
+    background-color: #ddd;
+
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    width: 85px;
+    height: 85px;
+    background-size: cover;
+    background-position: center;
+    border: 4px solid black;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+.income {
+    background-image: url('../img/008-dollar.svg')
+}
+
+.edu {
+    background-image: url('../img/014-books-stack-of-three.svg')
+}
+
+.blocks {
+    background-image: url('../img/001-three-buildings.svg')
+}
+
+.poverty {
+    background-image: url('../img/004-begging.svg')
+}
+
+.population {
+    background-image: url('../img/010-population-1.svg')
+}
+
+.pd {
+    background-image: url('../img/011-population.svg')
+}
+
+.icon1 {
+    width: 44%;
+    height: 120px;
+    background-color: #ddd;
+    float: left;
+}
+
+
+
+.title {
+    width: 92.5px;
+    height: 60px;
+    background-color: grey;
+    float: left;
+    word-wrap: break-word;
+    padding: 5px;
+    color: white;
+}
+
+.number {
+    width: 92.5px;
+    height: 60px;
+    background-color: #eee;
+    padding: 10px;
+    color: black;
+    float: left;
+    font-size: 14px;
+}
+
+.headbar {
+    width: 425px;
+    height: 60px;
+    background-color: #ddd;
+    float: left;
+}
+
+.bubbles {
+    width: 425px;
+    height: 300px;
+    background-color: #ddd;
+    float: left;
+}
+
+#toolbar {
+    width: 425px;
+    height: 60px;
+    background-color: #ddd;
+    padding-left: 10px;
+    float: left;
+}
+
+.button {
+    min-width: 130px;
+    padding: 4px 5px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 14px;
+}
+  
+.button.active {
+    background: #000;
+    color: #fff;
+}
+
+.connectivity {
+    width: 212.5px;
+    height: 300px;
+    background-color: #eee;
+    float: left;
+
+}
+
+.subscriptionlevel {
+    width: 425px;
+    height: 250px;
+    background-color: #ddd;
+    float: left;
+}
+
+.foot {
+    width: 850px;
+    height: 90px;
+    background-image: url('../img/header.jpg');
+    background-size: cover;
+    background-position: center;
+    float: left;
+}
+
+.foot-content {
+    width: 850px;
+    height: 90px;
+    color: white;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    float: left;
+    font-size: 20px;
+    text-align: left;
+    padding: 30px;
+}
+
+.foot-filter {
+    width: 850px;
+    height: 90px;
+    background-color: black;
+    position: absolute;
+    z-index: 0;
+    opacity: 0.7;
+}
+
+.backbar {
+    fill: wheat;
+}
+
+.bar {
+    transition: 2s;
+}
+
+
+
+
+.type {
+    font-size: 21px;
+    fill: #aaa;
+    cursor: default;
+  }
+  
+  .tooltip {
+      position: absolute;
+      top: 100px;
+      left: 100px;
+    -moz-border-radius:5px;
+      border-radius: 5px;
+    border: 2px solid #000;
+    background: #fff;
+      opacity: .9;
+    color: black;
+      padding: 10px;
+      width: 300px;
+      font-size: 12px;
+      z-index: 10;
+  }
+  
+  .tooltip .title {
+      font-size: 13px;
+  }
+  
+  .tooltip .name {
+    font-weight:bold;
+  }
+
+  p {
+      font-size: 10px;
+  }
+
+  h5 {
+      padding-top: 10px;
+  }
